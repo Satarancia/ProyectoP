@@ -1,6 +1,8 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: "Roboto Condensed", sans-serif;
+   
 }
 
 .bg-teal{
@@ -14,12 +16,14 @@ body{
    box-sizing: content-box;
 }
 
-body{
-    font-family: "Roboto Condensed", sans-serif;
-
-}
-
 #textoAbajo{
     font-style: italic;
     font-size: 140%;
+    
+    
 }
+
+#habilidades{
+    text-align: center;
+}
+
