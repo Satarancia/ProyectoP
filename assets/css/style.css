@@ -14,9 +14,12 @@ body{
    box-sizing: content-box;
 }
 
+body{
+    font-family: "Roboto Condensed", sans-serif;
 
+}
 
-
-
-
-
+#textoAbajo{
+    font-style: italic;
+    font-size: 140%;
+}
