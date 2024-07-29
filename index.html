@@ -2,89 +2,109 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"
-    ><link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-                <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/98mprice/PSone.css@master/PSone.min.css"> -->
+     <link rel="stylesheet" href="https://unpkg.com/xp.css"> 
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css">
         <title>Proyecto P</title>
 </head>
 <body>
-    <header>
+
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg bg-teal">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">SIOB</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-               
-              </div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary mb-5">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">SIOB</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+
+              </ul>
             </div>
-          </nav>
-    </header>
+          </div>
+        </nav>
 
     <!-- Seccion Informacion -->
-    <section class="portfolio-section" style="width:300px;">
-        <div class="image-container">
-            <img src="assets/img/pexels-alancabello-1492364.jpg" alt="Mano Abstracta" width="300px;">
-        </div>
-        <div class="sobreMi">
-            <h2>Sebastiana Isadora Olivares Beltrán</h2>
-            <h3 id="textoAbajo">Hacer las cosas con y por amor</h3>
-        </div>
-        <div class="card-body">
-          <p class="card-text">Soy una eterna estudiante, actualmente incursando en el área de programación FullStack.</p>
-        </div>
-    </section>
+    <div class="window m-auto" style="width: 320px">
+      <div class="title-bar">
+        <div class="title-bar-text">Sebastiana Isadora Olivares Beltrán</div>
+      </div>
+      <div class="window-body">
+    <p class="textoVentana">Eterna estudiante, actualmente incursionando en el área de la programación.
+        Me gustan los jueguitos, ver videos largos, coleccionar media en discos duros y todas las formas de arte.
+    </p>
+       </div>
+      <div class="status-bar">
+        <p class="status-bar-field"></p>
+        <p class="status-bar-field"></p>
+        <p class="status-bar-field">Haciendo las cosas por y con amor &#9829;</p>
+      </div>
+    </div>
+
 
     <!-- Habilidades -->
-<div id="habilidades">
-  <div class="card text-bg-dark mb-3 position-absolute top-50 start-50 translate-middle" style="width: 18rem;">
-    <div class="card-header">
-      Habilidades
+    <div class="window" style="width: 300px">
+      <div class="title-bar">
+        <div class="title-bar-text">Habilidades</div>
+        <div class="title-bar-controls">
+          <button aria-label="Minimize"></button>
+          <button aria-label="Maximize"></button>
+          <button aria-label="Close"></button>
+        </div>
+      </div>
+      <div class="window-body">
+        <ul class="tree-view">
+          <li>JS icono</li>
+          <li><strong style="color: purple">✨ Whatever ✨</strong></li>
+          <li>bootstrap aki poner icono</li>
+          <li>HTML/CSS aki poner icono</li>
+          <li>JQuery Aki poner icono</li>
+        </ul>
+      </div>
     </div>
-    <ul class="list-group list-group-flush">
-      <li class="list-group-item">JS</li>
-      <li class="list-group-item">JQuery</li>
-      <li class="list-group-item">HTML/CSS</li>
-      <li class="list-group-item">Bootstrap</li>
-    </ul>
-  </div>
 
 
     <!-- Proyectos -->
-    <div id="proyectos">
-      <div class="card text-bg-dark mb-3 position-absolute top-50 end-0 translate-middle-y" style="width: 18rem;">
-        <div class="card-header">
-          Proyectos
+    <div class="window">
+      <div class="title-bar">
+        <div class="title-bar-text">Command Prompt</div>
+        <div class="title-bar-controls">
+          <button aria-label="Minimize"></button>
+          <button aria-label="Maximize"></button>
+          <button aria-label="Close"></button>
         </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">Ejemplo</li>
-          <li class="list-group-item">En construcción</li>
-          <li class="list-group-item">En construcción</li>          
-        </ul>
       </div>
-
+      <div class="window-body">
+        <pre>Microsoft&#10094;R&#10095; Windows DOS 
+    &#10094;C&#10095; Copyright Microsoft Corp 1990-2001.
+    <progress></progress>
+          <br>C:&#92;WINDOWS&#92;SYSTEM32> You can build a command line easily with a window and pre tag
+        </pre>
+      </div>
+    </div>
+    
+   
 
     <!-- Contacto -->
-     <div class="contacto">
-     <div class="card-header text-bg-dark" style="width: 50rem;">
-        Contacto
-     </div>
-<div class="contacto mt-50 flex-box" style="width: 50rem;">
-    <div class="mb-3">
-      <label for="exampleFormControlInput1" class="form-label">Correo Electronico</label>
+    <div class="mt-3">
+      <label for="exampleFormControlInput1" class="form-label">Email address</label>
       <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
     </div>
     <div class="mb-3">
-      <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+      <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
       <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
     </div>
-  </div>
-</div>
     
 
 
