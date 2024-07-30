@@ -21,3 +21,17 @@ li{
 .window-body{
     font-size: medium;
 }
+
+
+
+  @media (max-width: 1050px){
+    .ventana{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    flex-direction: column;
+    }
+
+  }
+    

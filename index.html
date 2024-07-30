@@ -29,7 +29,8 @@
     <div class="row align-items-center">
       <div class="col">
          <!-- Habilidades -->
-    <div class="window " style="width: 300px">
+          <div class="ventana">
+    <div class="window habilidades" style="width: 300px">
       <div class="title-bar">
         <div class="title-bar-text">Habilidades</div>
         <div class="title-bar-controls">
@@ -47,9 +48,11 @@
       </div>
     </div>
       </div>
+    </div>
       <div class="col">
           <!-- Seccion Informacion -->
-    <div class="window" style="width: 350px">
+          <div class="ventana">   
+          <div class="window" style="width: 350px">
       <div class="title-bar">
         <div class="title-bar-text">Sebastiana Isadora Olivares Beltrán</div>
       </div>
@@ -65,8 +68,11 @@
       </div>
     </div>
       </div>
+    </div>
       <div class="col">
+         
         <!-- Proyectos -->
+        <div class="ventana">
         <div class="window" style="width: 350px">
           <div class="title-bar">
             <div class="title-bar-text">Proyectos</div>
@@ -82,7 +88,7 @@
           </div>
         </div>
         </div>
-    
+    </div>
     <!-- Contacto -->
     <div class="window mt-5">
       <div class="title-bar">
@@ -90,25 +96,27 @@
         <div class="title-bar-controls">
           <button aria-label="Minimize"></button>
           <button aria-label="Maximize"></button>
-          <button onclick="alert(':-P');" aria-label="Close"></button>
+          <button onclick="alert(';-P');" aria-label="Close"></button>
         </div>
       </div>
+      
       <div class="window-body">
         <pre>Para cualquier cosa, mandame un mensaje!
-          <div class="formaEnvio m-auto"> 
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Tu correo</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            <div class="field-row-stacked m-auto" style="width: 500px">
+            <label for="text22">Correo electronico</label>
+            <input id="text22" type="email" placeholder="ejemplo@web.com" />
           </div>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+          <div class="field-row-stacked m-auto" style="width: 500px">
+            <label for="text24">Mensaje</label>
+            <textarea id="text24" rows="8"></textarea>
+            <button>Enviar</button>
           </div>
-        </div>
+          </div>
           
         </pre>
       </div>
-    </div>
+    
 
   
 
@@ -125,6 +133,5 @@
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/f6111ed73a.js" crossorigin="anonymous"></script>
 <script src="assets/js/script.js"></script>
-<script src="assets/js/main.js"></script>
 </body>
 </html>
