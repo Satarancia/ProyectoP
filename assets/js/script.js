@@ -1,8 +1,8 @@
 $(document).ready(function() {
-    $('button').click(function() {
-        let email = $('#text22');
-        let message = $('#text24');
-        let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    $('#boton-contacto').click(function() {
+        var email = $('#text22');
+        var message = $('#text24');
+        var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
         if (email !== "" && message !== "") {
             if (emailPattern.test(email)) {
