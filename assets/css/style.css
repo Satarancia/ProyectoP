@@ -8,3 +8,16 @@ body {
 .textoVentana{
 font-size: small;
 }
+
+.formaEnvio{
+    width: 700px;
+    
+}
+
+li{
+    font-size: small;
+}
+
+.window-body{
+    font-size: medium;
+}
